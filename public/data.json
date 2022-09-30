@@ -4,7 +4,7 @@
     "activityName" : "Weight Lifting",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "10min",
+    "time": 10,
      "img": "https://www.boomfit.eu/img/cms/dumbbell%20bench%20press.jpg"
    
     },
@@ -13,7 +13,7 @@
     "activityName" : "Running On Trademill",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "20min",
+    "time": 20,
      "img": "https://bodygears.com/wp-content/uploads/2020/10/pexels-william-choquette-1954524-1-scaled.jpg"
     },
     {
@@ -21,7 +21,7 @@
     "activityName" : "Battle Rope",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "15min",
+    "time": 15,
      "img": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNwb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -29,15 +29,15 @@
     "activityName" : "Cycling",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "30min",
+    "time": 30,
      "img": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
     "id": 5,
-    "activityName" : "Swimming",
+    "activityName" : "Sim",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "60min",
+    "time": 60,
      "img": "https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNwb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -45,7 +45,7 @@
     "activityName" : "Indoor Cycling",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "20min",
+    "time": 20,
      "img": "https://media.istockphoto.com/photos/man-working-out-on-exercise-bike-at-home-picture-id596568573?b=1&k=20&m=596568573&s=170667a&w=0&h=UXKak0SRzplLfXLrGumf2ePdgR90gy2J0QGHpBMSdjM="
     },
     {
@@ -53,7 +53,7 @@
     "activityName" : "Squat",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "10min",
+    "time": 10,
      "img": "https://images.unsplash.com/photo-1517963628607-235ccdd5476c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -61,7 +61,7 @@
     "activityName" : "Running",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "30min",
+    "time": 30,
      "img": "https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
     },
     {
@@ -69,7 +69,7 @@
     "activityName" : "Meditating",
     "activityDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "ageRange" : "20-25",
-    "time": "40min",
+    "time": 40,
      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLTbVptXOCIhDvoeXiTj89S_YrURGXrbzwmQ&usqp=CAU"
     }
     

@@ -66,7 +66,7 @@ function App() {
             
         </div>
         <Duration></Duration>
-        <Details timeIncrement={increaseTime}></Details>
+        <Details timeIncrement={time}></Details>
         </div><Aside>
 
       </Aside>
