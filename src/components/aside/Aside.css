@@ -1,5 +1,10 @@
+.aside-bg{
+    background-color: white;
+}
 .individual{
     display: flex;
+    width: 75%;
+    margin: auto;
     /* align-items: center; */
 
 }
@@ -13,6 +18,21 @@
 .name{
     margin-bottom: 0;
     
+}
+.measurements{
+    width: 75%;
+    margin: auto;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.measurements p{
+    font-weight:bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* .individual p{
     display: inline;
