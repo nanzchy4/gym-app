@@ -12,3 +12,11 @@
     border-radius: 8px;
     font-weight: bold;
 }
+@media screen and (max-width:576px) {
+    .timeCalculator{ 
+        margin-top: 0;
+    }
+    .timeCalculator div p{
+        padding: 2px;
+    }
+}

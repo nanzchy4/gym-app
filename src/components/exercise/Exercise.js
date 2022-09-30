@@ -12,9 +12,10 @@ const Exercise = (props) => {
             <p>{activityDescription}</p>
             <h4>For Age: {ageRange}</h4>
             <h4>Time Required: {time}</h4>
-            <button onClick={()=> props.handler(props.key)}>Add To List</button>
+            <button onClick={()=> props.handler(props.data)}>Add To List</button>
         </div>
     );
 };
+
 
 export default Exercise;

@@ -52,3 +52,52 @@
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
 }
+
+/*aside*/
+.aside-bg{
+  background-color: white;
+}
+.individual{
+  display: flex;
+  width: 75%;
+  margin: auto;
+  /* align-items: center; */
+
+}
+.img-container img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.name{
+  margin-bottom: 0;
+  
+}
+.measurements{
+  width: 75%;
+  margin: auto;
+  background-color: #E6E6FA;
+  border-radius: 5px;
+  padding: 6px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.measurements p{
+  font-weight:bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width:576px) {
+  .exerciseList{
+    display: block;
+    
+  }  
+  .container{
+    display: block;
+    /* grid-template-columns: 3fr 1fr;
+    background-color: #E6E6FA; */
+  }
+}
