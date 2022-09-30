@@ -2,7 +2,7 @@ import React from 'react';
 import './Exercise.css';
 
 const Exercise = (props) => {
-    console.log(props.data);
+    
     const {activityName,activityDescription,ageRange,time,img} =props.data;
     // console.log(jpg);
     return (
@@ -12,7 +12,7 @@ const Exercise = (props) => {
             <p>{activityDescription}</p>
             <h4>For Age: {ageRange}</h4>
             <h4>Time Required: {time}</h4>
-            <button>Add To List</button>
+            <button onClick={()=> props.handler(props.key)}>Add To List</button>
         </div>
     );
 };

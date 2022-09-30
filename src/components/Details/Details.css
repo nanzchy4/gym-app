@@ -1,0 +1,14 @@
+.timeCalculator{
+    margin-top: 60px;
+
+}
+.timeCalculator div{
+    width: 75%;
+    margin: auto;
+}
+.timeCalculator div p{
+    background-color: #E6E6FA;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}

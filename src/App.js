@@ -10,20 +10,24 @@ function App() {
   useEffect( ()=>{
     fetch('data.json')
     .then(res => res.json())
-    .then(data =>setActivities(data))
+    .then(data =>{
+      setActivities(data);
+     
+    })
   },[])
-  
-  // const activity = activities.map(activity =>{
+  console.log(activities);
+  const increaseTime = (id)=>{
+    activities.map(activity => activity.id === id)
+    <Exercise data={activity}></Exercise>
 
-  // })
-
+  }
   return (
     <div className='container'>
       <div className='section'>
       <Header></Header>
       <div className='exerciseList'>
       {
-        activities.map(activity => <Exercise data={activity} key={activity.id}></Exercise>)
+        activities.map(activity => <Exercise data={activity} key={activity.id} handler={increaseTime}></Exercise>)
       }
       </div>
       </div>

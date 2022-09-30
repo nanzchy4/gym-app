@@ -3,7 +3,7 @@ import './Duration.css';
 
 const Duration = () => {
     return (
-        <div>
+        <div className='duartion-box'>
             <h3>Add A Break</h3>
             <div className='breakTime'>
                 <p><span>10</span>s</p>

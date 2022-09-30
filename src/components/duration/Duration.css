@@ -1,9 +1,14 @@
+.duartion-box{
+
+     width: 75%;
+    margin: auto;
+    
+}
 .breakTime{
     display: flex;
     justify-content: space-around;
     background-color: #E6E6FA;
-    width: 75%;
-    margin: auto;
+    
 }
 .breakTime p{
     margin-bottom: 2px;

@@ -3,6 +3,7 @@ import './Aside.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLocationDot} from '@fortawesome/free-solid-svg-icons';
 import Duration from '../duration/Duration';
+import Details from '../Details/Details';
 
 const Aside = () => {
     return (
@@ -29,6 +30,7 @@ const Aside = () => {
             
         </div>
         <Duration></Duration>
+        <Details></Details>
         </div>
     );
 };
