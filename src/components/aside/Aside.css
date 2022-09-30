@@ -1,0 +1,19 @@
+.individual{
+    display: flex;
+    /* align-items: center; */
+
+}
+.img-container img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.name{
+    margin-bottom: 0;
+    
+}
+/* .individual p{
+    display: inline;
+} */

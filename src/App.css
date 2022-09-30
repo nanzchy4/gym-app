@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #E6E6FA;
+}
+.section{
+  margin-top: 60px ;
+  margin-left: 20px;
+  padding: 10px ;
+}
+.exerciseList{
+  /* width: 25%; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}

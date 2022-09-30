@@ -1,0 +1,22 @@
+.unitA{
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    padding: 8px 10px;
+    background-color: white;
+  }
+.unitA img{
+    width: 286px;
+    height: 200px;
+    border-radius: 10px ;
+   
+}
+.unitA button{
+    width: 284px;
+    background-color: #953553;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
